@@ -13,7 +13,7 @@ const Search = () => {
 
   return (
     <Wrapper>
-      <Heading>Find contacts ny name</Heading>
+      <Heading>Find contacts by name</Heading>
       <Field type="text" value={filter} onChange={onFilterChange} />
     </Wrapper>
   );
